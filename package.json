@@ -1,0 +1,33 @@
+{
+  "name": "akj-cli",
+  "version": "1.0.0",
+  "description": "摸打滚爬的几年的脚手架总结",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankeji/akj-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankeji/akj-cli/issues"
+  },
+  "homepage": "https://github.com/ankeji/akj-cli#readme",
+  "bin": {
+    "akj": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.0.0",
+    "semver": "^7.3.7"
+  }
+}
