@@ -10,6 +10,10 @@ function start() {
     console.log(chalk.cyanBright('      您正在使用akj-cli命令行工具...\n'))
 
     program
+        .version(`${require('./package.json').version}`)
+        .usage('<command> [option]')
+
+    program
         .command('create [projectName]') // <必填> [可选]
         .description('用于创建一个项目模板')
         .option("-f, --force", "overwrite target directory if it exists")
