@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ankeji/akj-cli#readme",
   "bin": {
-    "akj": "index.js"
+    "akj": "./bin/index.js"
   },
   "dependencies": {
     "boxen": "^5.1.2",
