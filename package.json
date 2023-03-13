@@ -1,7 +1,7 @@
 {
   "name": "akj-cli",
-  "version": "1.0.3",
-  "description": "摸打滚爬的几年的脚手架总结",
+  "version": "1.1.0",
+  "description": "一个功能丰富的前端脚手架",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

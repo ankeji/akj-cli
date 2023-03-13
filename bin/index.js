@@ -19,7 +19,7 @@ function start() {
 
     program
         .command('create [projectName]') // <必填> [可选]
-        .description('用于创建一个项目模板')
+        .description('用于创建一个项目')
         .option("-f, --force", "overwrite target directory if it exists")
         .action(async function (projectName, options) {
             if (!projectName) {
