@@ -1,6 +1,6 @@
 {
   "name": "akj-cli",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "一个功能丰富的前端脚手架",
   "main": "index.js",
   "scripts": {
